@@ -8,7 +8,7 @@ local parried = false
 
 local Vanta = {
     AutoParry = {
-        Enabled = true,
+        Enabled = false,
     },
 }
 
