@@ -717,7 +717,7 @@ do
         Title = "AutoShake Delay",
         Description = "Change the delay between every shake",
         Default = 1,
-        Min = 0.0166666,
+        Min = 0.1,
         Max = 1,
         Rounding = 1,
         Callback = function(Value)
