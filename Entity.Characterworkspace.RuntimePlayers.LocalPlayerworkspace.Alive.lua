@@ -1753,7 +1753,7 @@ local H = S:CreateDropdown({
   end,
 })  
   
-local A2 = V:AddToggle({
+local A2 = V:CreateToggle({
   Name = "Optimizer",
   Value = false,
   Callback = function(Value)
@@ -1788,7 +1788,7 @@ local A2 = V:AddToggle({
 		end
 	end,
 })  
-local B2 = V:AddToggle({
+local B2 = V:CreateToggle({
   Name = "Ball Trail",
   Value = false,
   Callback = function(Value)
